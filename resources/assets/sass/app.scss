@@ -1,0 +1,24 @@
+//app.scss
+
+.add-post,
+.text-right .btn-danger {
+	margin-top: 25px;
+}
+.alert {
+	&.alert-danger {
+		ul {
+			margin-left: 0;
+		}
+	}
+}
+
+.form-group {
+	.error {
+		color: red;
+	}
+}
+@media screen and (max-width: 767px) {
+	body {
+		background: red;
+	}
+}
